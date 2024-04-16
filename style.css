@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Sedan:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: white;
+    font-family: "Sedan", serif;
+}
+
+body{
+    background-color: #2c2c2c;
+}
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li a{
+    margin: 0 5px;
+    border: 2px solid white;
+    padding: 0px 10px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.logo{
+    border: 2px solid white;
+    padding : 10px 5px;
+}
+.signin{
+    color: black;
+    background-color: white;
+}
+.signin:hover{
+    background-color: black;
+    color: white;
+}
+main{
+    display: flex;
+    height: 90vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 150px;
+}
+main h2{
+    font-size: 30px;
+    text-transform:uppercase ;
+}
+main p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 31.5px;
+    margin: 30px 0;
+}
+.left{
+    flex: 1;
+}
+.mid{
+    flex: 2;
+}
+.right{
+    flex: 1;
+}
+
+.btn{
+    margin-top: 5px;
+    padding: 15px 30px;
+    background-color: white;
+    outline: none;
+    border: none;
+    color: black;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: #2c2c2c;
+    color: white;
+    border: 2px solid white;
+}
+
+.left h2{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(15,end);
+}
+@keyframes typing{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+.logo img{
+    height: auto;
+    width: 55px;
+}
