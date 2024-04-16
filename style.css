@@ -103,3 +103,7 @@ main p{
     height: auto;
     width: 55px;
 }
+.ma{
+    max-width: 500px;
+    height: auto;
+}
